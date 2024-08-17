@@ -1,0 +1,13 @@
+{
+  "name": "Web2Text",
+  "description": "Web2Text converts web pages to plain text with a click, for distraction-free reading and easy text extraction, enhancing browsing.",
+  "version": "0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "window.html"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
